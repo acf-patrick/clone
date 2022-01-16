@@ -1,0 +1,90 @@
+.top-bar {
+  border-top: 2px solid #f48225;
+  position: fixed;
+  font-family: 'Liberation Sans';
+  width: 100%;
+}
+
+.top-bar .middle-bar {
+  display: block;
+  margin: auto;
+  height: 0.2rem;
+  width: 30%;
+  background: #838c95;
+}
+
+.top-bar .middle-bar:before, .top-bar .middle-bar:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #838c95;
+}
+
+.top-bar .middle-bar:before {
+  -webkit-transform: translateY(-220%);
+          transform: translateY(-220%);
+}
+
+.top-bar .middle-bar:after {
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+}
+
+.top-bar__links a {
+  color: #525960;
+}
+
+.top-bar__links a:hover {
+  background: #e3e6e8;
+}
+
+.top-bar__buttons .login {
+  color: #39739d;
+  background-color: #e1ecf4;
+  border-color: #7aa7c7;
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+          box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+}
+
+.top-bar__buttons .login:hover {
+  color: #2c5877;
+  background-color: #b3d3ea;
+}
+
+.top-bar__buttons .signup {
+  color: white;
+  background-color: #0a95ff;
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+          box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+}
+
+.top-bar__buttons .signup:hover {
+  background-color: #0074cc;
+}
+
+.top-bar__search-bar input {
+  width: 100%;
+}
+
+.top-bar__navbar-button:hover {
+  background: #e3e6e8;
+}
+
+.top-bar .logo {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.top-bar .logo:hover {
+  background: #e3e6e8;
+}
+
+.top-bar a {
+  text-decoration: none;
+}
+
+.top-bar strong {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=topbar.css.map */

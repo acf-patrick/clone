@@ -1,0 +1,94 @@
+.top-bar {
+    $top-bar-link-bg-color: #e3e6e8;
+
+    border-top: 2px solid #f48225;
+    position: fixed;
+    font-family: 'Liberation Sans';
+    width: 100%;
+
+    .middle-bar {
+        $menu-bar-color: #838c95;
+
+        display: block;
+        margin: auto;
+        height: 0.2rem;
+        width: 30%;
+        background: $menu-bar-color;
+
+        &:before, &:after {
+            display: block;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: $menu-bar-color;
+        }
+
+        &:before {
+            transform: translateY(-220%);
+        }
+
+        &:after {
+            transform: translateY(110%);
+        }
+    }
+
+    &__links a {
+        color: #525960;
+        
+        &:hover {
+            background: $top-bar-link-bg-color;
+        }
+    }
+
+    &__buttons {
+        
+        .login {
+            color: #39739d;
+            background-color: #e1ecf4;
+            border-color: #7aa7c7;
+            box-shadow: inset 0 1px 0 0 hsla(0,0%,100%,0.4);
+
+            &:hover {
+                color: #2c5877;
+                background-color: #b3d3ea;
+            }
+        }
+
+        .signup {
+            color: white;
+            background-color: #0a95ff;
+            box-shadow: inset 0 1px 0 0 hsla(0,0%,100%,0.4);
+
+            &:hover {
+                background-color: #0074cc;
+            }
+        }
+    }
+
+    &__search-bar {
+        input {
+            width: 100%;
+        }
+    }
+
+    &__navbar-button:hover {
+        background: $top-bar-link-bg-color;
+    }
+
+    .logo {
+        color: black;
+        font-size: 1.3rem;
+
+        &:hover {
+            background: $top-bar-link-bg-color;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    strong {
+        font-weight: bolder;
+    }
+}

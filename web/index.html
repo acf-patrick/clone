@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/topbar.css">
+    <title>Stack Overflow</title>
 </head>
 <body>
-    
+<div class="wrapper container-fluid">
+    <header class="top-bar row py-1 align-baseline shadow-sm">
+        <a href="#" class="top-bar__navbar-button col-1 d-flex">
+            <span class="middle-bar"></span>
+        </a>
+        <a href="#" class="logo col-2">
+            <img width="32" height="32" src="../assets/images/stackoverflow-color.png" alt="stackoverflow-logo">
+            stack <strong>Overflow</strong>
+        </a>
+        <div class="top-bar__links col-3 d-flex">
+            <a class="mx-1 p-2 rounded-pill" href="https://stackoverflow.com/company">About</a>
+            <a class="mx-1 p-2 rounded-pill" href="#">Products</a>
+            <a class="mx-1 p-2 rounded-pill" href="https://stackoverflow.com/teams">For Teams</a>
+        </div>
+        <form class="top-bar__search-bar col-4">
+            <input type="text" placeholder="Search..." class="search-bar__input form-control">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+        <div class="top-bar__buttons col-2">
+            <a class="btn login mx-1" href="https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f">Log in</a>
+            <a class="btn signup mx-1" href="https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent">Sign up</a>
+        </div>
+    </header>
+</div>
+
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
