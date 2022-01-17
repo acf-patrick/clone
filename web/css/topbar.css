@@ -80,6 +80,11 @@
   background: #e3e6e8;
 }
 
+.top-bar .logo, .top-bar__links a {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
 .top-bar a {
   text-decoration: none;
 }

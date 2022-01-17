@@ -84,6 +84,10 @@
         }
     }
 
+    .logo, &__links a {
+        cursor: grab;
+    }
+
     a {
         text-decoration: none;
     }
