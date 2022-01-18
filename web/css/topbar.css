@@ -97,12 +97,14 @@
   width: 100%;
   color: #babfc4;
   padding-left: 2.5rem;
+  background: transparent;
 }
 
 .search-bar__magnifying-glass {
+  z-index: -1;
   position: absolute;
   fill: #babfc4;
-  left: 1.5rem;
+  left: 1rem;
   top: 0.6rem;
 }
 /*# sourceMappingURL=topbar.css.map */

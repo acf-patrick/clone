@@ -103,12 +103,14 @@
         width: 100%;
         color: $input-color;
         padding-left: 2.5rem;
+        background: transparent;
     }
 
     &__magnifying-glass {
+        z-index: -1;
         position: absolute;
         fill: $input-color;
-        left: 1.5rem;
+        left: 1rem;
         top: 0.6rem;
     }
 }
