@@ -33,6 +33,7 @@
 
 .top-bar__links a {
   color: #525960;
+  font-size: 0.8rem;
 }
 
 .top-bar__links a:hover {
@@ -63,12 +64,16 @@
   background-color: #0074cc;
 }
 
-.top-bar__search-bar input {
-  width: 100%;
-}
-
 .top-bar__navbar-button:hover {
   background: #e3e6e8;
+}
+
+.top-bar__links a, .top-bar .logo {
+  cursor: default;
+}
+
+.top-bar__search-bar {
+  position: relative;
 }
 
 .top-bar .logo {
@@ -91,5 +96,18 @@
 
 .top-bar strong {
   font-weight: bolder;
+}
+
+.search-bar__input {
+  width: 100%;
+  color: #babfc4;
+  padding-left: 2.5rem;
+}
+
+.search-bar__magnifying-glass {
+  position: absolute;
+  fill: #babfc4;
+  left: 1.5rem;
+  top: 0.6rem;
 }
 /*# sourceMappingURL=topbar.css.map */

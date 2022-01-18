@@ -34,6 +34,7 @@
 
     &__links a {
         color: #525960;
+        font-size: 0.8rem;
         
         &:hover {
             background: $top-bar-link-bg-color;
@@ -65,14 +66,16 @@
         }
     }
 
-    &__search-bar {
-        input {
-            width: 100%;
-        }
-    }
-
     &__navbar-button:hover {
         background: $top-bar-link-bg-color;
+    }
+
+    &__links a, .logo {
+        cursor: default;
+    }
+
+    &__search-bar {
+        position: relative;
     }
 
     .logo {
@@ -94,5 +97,22 @@
 
     strong {
         font-weight: bolder;
+    }
+}
+
+.search-bar {
+    $input-color: #babfc4;
+
+    &__input {
+        width: 100%;
+        color: $input-color;
+        padding-left: 2.5rem;
+    }
+
+    &__magnifying-glass {
+        position: absolute;
+        fill: $input-color;
+        left: 1.5rem;
+        top: 0.6rem;
     }
 }
